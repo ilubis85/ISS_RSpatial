@@ -19,3 +19,5 @@ download.file("https://github.com/mgimond/Spatial/raw/main/Data/elev.img",
 
 # Load library
 library(sf)
+
+s.sf <- st_read("Income_schooling.shp")
